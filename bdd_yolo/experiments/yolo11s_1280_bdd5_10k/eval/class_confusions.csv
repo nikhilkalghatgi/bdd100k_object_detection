@@ -1,0 +1,11 @@
+gt,predicted,count
+truck,car,272
+car,truck,194
+truck,bus,146
+bus,truck,114
+bus,car,77
+car,bus,74
+car,person,15
+person,car,14
+bike,person,14
+person,bike,13

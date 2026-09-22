@@ -1,0 +1,29 @@
+# raw BDD100K dataset (~11 GB) — download separately
+archive (1)/
+archive*.zip
+
+# generated YOLO-format subsets — rebuild with prepare_dataset.py
+bdd_yolo/datasets/
+
+# model weights (~280 MB total)
+*.pt
+*.engine
+*.onnx
+
+# raw per-box stats dump (83 MB) — regenerate with analyze_bdd100k.py
+bdd100k_report/stats.json
+
+# eval scratch files (contain absolute local paths)
+bdd_yolo/experiments/*/eval/_*.txt
+bdd_yolo/experiments/*/eval/_*.yaml
+bdd_yolo/experiments/*/eval/subset_*/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# os
+.DS_Store
+Thumbs.db

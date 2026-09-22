@@ -1,0 +1,13 @@
+image,n_gt,fn,fp,errors,timeofday,weather
+b4065fc4-ede06556.jpg,46,21,20,41,daytime,clear
+c9283177-1ac311e2.jpg,28,9,27,36,daytime,overcast
+b2daf29d-6198754f.jpg,47,30,5,35,daytime,overcast
+b4c733a8-46d78670.jpg,41,24,11,35,daytime,partly cloudy
+bc7a0adc-260a111d.jpg,35,23,12,35,daytime,partly cloudy
+c28cecbb-11796cf6.jpg,39,25,10,35,daytime,overcast
+c59c31f2-cdac8cc8.jpg,40,23,11,34,daytime,undefined
+be26ac57-35dabb9c.jpg,41,20,13,33,daytime,undefined
+bb4935b0-e3fcded0.jpg,27,13,18,31,daytime,overcast
+b6db6674-29fd8e88.jpg,34,22,8,30,daytime,overcast
+b6f2176b-20c2f527.jpg,25,16,12,28,daytime,clear
+b75da19e-78c2c800.jpg,37,18,10,28,daytime,overcast
