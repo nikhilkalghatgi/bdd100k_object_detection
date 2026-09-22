@@ -31,7 +31,7 @@ model capacity.
 
 ## Setup
 
-Requires Python 3.10+, an NVIDIA GPU, and the BDD100K dataset extracted to `archive (1)/`.
+Requires Python 3.10+, an NVIDIA GPU, and the BDD100K dataset extracted.
 
 ```bash
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
@@ -44,7 +44,7 @@ will be roughly 50x slower.
 Expected dataset layout:
 
 ```
-archive (1)/
+dataset/
   train/images/*.jpg          70,000 images, 1280x720
   train/annotations/bdd100k_labels_images_train.json
   val/images/*.jpg            10,000 images
