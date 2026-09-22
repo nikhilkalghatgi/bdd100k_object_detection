@@ -1,10 +1,10 @@
-# Road-User Detection on BDD100K
+# Road-User Detection on BDD100K using Yolov11s
 
-Object detection for five road-user classes — **car, bus, person, truck, bike** — trained and
+Object detection for five classes - **car, bus, person, truck, bike** — trained and
 evaluated on the BDD100K driving dataset, taken through the full pipeline: data analysis →
 preprocessing → model selection → training → evaluation → failure analysis → improvement.
 
-Full write-up with rationale and failure analysis: **[bdd_yolo/TECHNICAL_REPORT.md](bdd_yolo/TECHNICAL_REPORT.md)**
+Full Technical Report: **[bdd_yolo/TECHNICAL_REPORT.md](bdd_yolo/TECHNICAL_REPORT.md)**
 
 ---
 
@@ -31,7 +31,7 @@ model capacity.
 
 ## Setup
 
-Requires Python 3.10+, an NVIDIA GPU, and the BDD100K dataset extracted to `archive (1)/`.
+Requires Python 3.10+, an NVIDIA GPU, and the BDD100K dataset extracted.
 
 ```bash
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
@@ -44,7 +44,7 @@ will be roughly 50x slower.
 Expected dataset layout:
 
 ```
-archive (1)/
+dataset/
   train/images/*.jpg          70,000 images, 1280x720
   train/annotations/bdd100k_labels_images_train.json
   val/images/*.jpg            10,000 images
