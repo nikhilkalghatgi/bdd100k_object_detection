@@ -4,6 +4,8 @@ Object detection for five classes - **car, bus, person, truck, bike** — traine
 evaluated on the BDD100K driving dataset, taken through the full pipeline: data analysis →
 preprocessing → model selection → training → evaluation → failure analysis → improvement.
 
+**Note:** Sample predictions results drawn/overlaid on val images are available in **[bdd_yolo\experiments\yolo11s_1280_bdd5_10k\predictions_bbox](bdd_yolo\experiments\yolo11s_1280_bdd5_10k\predictions_bbox)
+
 Full Technical Report: **[bdd_yolo/TECHNICAL_REPORT.md](bdd_yolo/TECHNICAL_REPORT.md)**
 
 ---
