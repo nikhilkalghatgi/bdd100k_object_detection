@@ -61,3 +61,8 @@ BENCH_IMAGES = 200  # timed iterations per config, batch 1
 BENCH_WARMUP = 20
 BENCH_HALF = True  # also measure FP16
 BENCH_TENSORRT = False  # also export to TensorRT FP16 and measure (needs: pip install tensorrt)
+
+# ----------------------------------------------------------------- prediction visuals
+PRED_N = 100  # images to save
+PRED_MIN_PER_CLASS = 10  # keep sampling until every class appears in at least this many
+PRED_SEED = 0
